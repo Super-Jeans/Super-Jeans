@@ -1,0 +1,173 @@
+## Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Super Jeans | FIT AND COOL</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      background: #f9f9f9;
+    }
+
+    header {
+      background: #1e90ff;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    header p {
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
+
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background: #555;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #1e90ff;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .product h3 {
+      margin-top: 0;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #1e90ff;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      header p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Super Jeans</h1>
+    <p>FIT AND COOL</p>
+    <p><em>Trends For Tiny Teens</em></p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Super Jeans is a clothing company built locally for the Indians. As the population is growing, we at Super Jeans take this opportunity and hope to give the trendiest, comfortable, and fashionable clothing to children from 1–14 years.
+    </p>
+    <p>
+      We believe kids deserve fashion too — with the right fit and the coolest designs.
+    </p>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <h3>Boys Jeans (1–7 Years)</h3>
+        <p>Soft, durable, and comfy denim for toddlers and young boys.</p>
+        <a href="https://wa.me/916290975364" class="btn">Order Now</a>
+      </div>
+      <div class="product">
+        <h3>Boys Jeans (8–14 Years)</h3>
+        <p>Trendy slim-fit and regular jeans for growing kids with style.</p>
+        <a href="https://wa.me/916290975364" class="btn">Order Now</a>
+      </div>
+      <div class="product">
+        <h3>Girls Jeans (1–7 Years)</h3>
+        <p>Stylish and stretchy jeans perfect for young fashionistas.</p>
+        <a href="https://wa.me/916290975364" class="btn">Order Now</a>
+      </div>
+      <div class="product">
+        <h3>Girls Jeans (8–14 Years)</h3>
+        <p>Trendy cuts, soft fabric, and fun colors for growing girls.</p>
+        <a href="https://wa.me/916290975364" class="btn">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      Have questions or want to place an order? Contact us directly on WhatsApp:
+    </p>
+    <p>
+      <a href="https://wa.me/916290975364" class="btn">Chat on WhatsApp</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Super Jeans. All rights reserved.
+  </footer>
+
+</body>
+</html>
